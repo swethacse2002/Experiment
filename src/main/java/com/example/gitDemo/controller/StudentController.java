@@ -19,4 +19,13 @@ public class StudentController {
     public String getTheMessage(){
         return studentService.getMessage();
     }
+
+    /**
+     * Method to get a another message
+     * @return a string
+     */
+    @GetMapping("/hello")
+    public String getTheMessages(){
+        return studentService.getMessage();
+    }
 }
