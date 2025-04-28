@@ -11,6 +11,10 @@ public class StudentController {
     @Autowired
     StudentService studentService;
 
+    /**
+     * Method to get a simple message
+     * @return a string
+     */
     @GetMapping("/")
     public String getTheMessage(){
         return studentService.getMessage();
