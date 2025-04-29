@@ -22,7 +22,7 @@ public class StudentController {
 
     /**
      * Method to get a another message
-     * @return a string
+     * @return a string value
      */
     @GetMapping("/hello")
     public String getTheMessages(){
